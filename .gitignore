@@ -1,0 +1,52 @@
+# Build directories
+build/
+cmake-build-*/
+out/
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.vs/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Compiled files
+cortex
+cortex_tests
+
+# Test output
+Testing/
+*.log
+*.trs
+
+# Coverage
+*.gcov
+*.gcda
+*.gcno
+coverage/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documentation build
+docs/_build/
+
+# Temporary files
+*.tmp
+*.bak
+*.orig
