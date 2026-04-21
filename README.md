@@ -16,11 +16,31 @@
     <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License"/>
   </a>
   <a href="https://github.com/moggan1337/Cortex/actions">
-    <img src="https://github.com/moggan1337/Cortex/workflows/CI/badge.svg" alt="CI"/>
+    <a href="https://github.com/moggan1337/Cortex/actions/workflows/ci.yml">
+    <img src="https://github.com/moggan1337/Cortex/actions/workflows/ci.yml/badge.svg" alt="CI"/>
+  </a>
   </a>
 </p>
 
 ---
+
+## 🎬 Demo
+![Cortex Demo](demo.gif)
+
+*Neural network inference on emulated hardware accelerators*
+
+## Screenshots
+| Component | Preview |
+|-----------|---------|
+| Accelerator View | ![accelerator](screenshots/accelerator.png) |
+| Layer Execution | ![layers](screenshots/layer-exec.png) |
+| Performance Stats | ![stats](screenshots/performance.png) |
+
+## Visual Description
+Accelerator view shows PE arrays with dataflow visualization. Layer execution displays activation maps through convolutions and pooling. Performance stats show throughput and latency per layer.
+
+---
+
 
 ## Table of Contents
 
